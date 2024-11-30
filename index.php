@@ -1,3 +1,18 @@
+<?php
+
+//include function page
+include_once('lib/functions/userFunction.php');
+
+if(isset($_POST['btnLogin'])){
+    $result = Authentication($_POST['userName'],$_POST['userPass']);
+    echo($result);
+}
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,17 +56,17 @@
                 <span>Don't have an account? <a href="#" onclick="register()">Sign Up</a></span>
                 <header>Login</header>
             </div>
-            <form action="lib/functions/auth.php" method = "post">
+            <form action="" method = "post">
             <div class="input-box">
-                <input type="text" class="input-field" placeholder="Username or Email">
+                <input type="text" class="input-field" placeholder="Username or Email" name = "userName">
                 <i class="bx bx-user"></i>
             </div>
             <div class="input-box">
-                <input type="password" class="input-field" placeholder="Password">
+                <input type="password" class="input-field" placeholder="Password" name = "userPass">
                 <i class="bx bx-lock-alt"></i>
             </div>
             <div class="input-box">
-                <input type="submit" class="submit" value="Sign In">
+                <input type="submit" class="submit" value="Sign In" name = "btnLogin">
             </div>
             </form>
             <div class="two-col">
@@ -71,23 +86,24 @@
                 <span>Have an account? <a href="#" onclick="login()">Login</a></span>
                 <header>Sign Up</header>
             </div>
+            <form action="lib/route/user/registration.php" method = "post">
             <div class="two-forms">
+                <!--<form action="" method = "post">-->
                 <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Firstname">
+                    <input type="text" class="input-field" placeholder="Firstname" name = "userName">
                     <i class="bx bx-user"></i>
                 </div>
-                <form action="lib/functions/auth.php" method = "post">
                 <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Lastname">
+                    <input type="text" class="input-field" placeholder="Lastname" name ="userLast">
                     <i class="bx bx-user"></i>
                 </div>
             </div>
             <div class="input-box">
-                <input type="text" class="input-field" placeholder="Email">
+                <input type="text" class="input-field" placeholder="Email" name = "userEmail">
                 <i class="bx bx-envelope"></i>
             </div>
             <div class="input-box">
-                <input type="password" class="input-field" placeholder="Password">
+                <input type="password" class="input-field" placeholder="Password" name = "userPass" >
                 <i class="bx bx-lock-alt"></i>
             </div>
             <div class="input-box">
