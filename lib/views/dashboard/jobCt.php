@@ -6,9 +6,8 @@
     <title>JobEntry</title>
     <link rel="stylesheet" href="../../../css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../css/nav.css">
+    <link rel="stylesheet" href="../../../css/jbct.css">
     <link rel="stylesheet" href="../../../css/home.css">
-
-
 </head>
 <body>
         <!--Nav Bar-->
@@ -50,6 +49,7 @@
 <!--Nav Bar End-->
 <br><br><br><br>
 <!--job cat-->
+
 <div class="section">
 <div class="container mt-5">
         <h2 class="text-center mb-4">Explore By Category</h2>
@@ -59,7 +59,7 @@
              <a href="">
                 <div class="category-card">
                     <div class="category-icon">&#128231;</div>
-                    <div class="category-title">Marketing</div>
+                    <div class="category-title">Marketing & Maneging</div>
                     <div class="category-vacancy">5 Vacancy</div>
                 </div>
                </a>
@@ -130,7 +130,6 @@
         </div>
     </div>
 </div>
-
 
 
 

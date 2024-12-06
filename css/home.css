@@ -17,52 +17,6 @@ h2 {
     color: black;
 }
 
-/*Job  Category start*/
-.category-card {
-    background: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.category-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-
-.category-icon {
-    font-size: 40px;
-    color: #3ECE75;
-    margin-bottom: 10px;
-}
-
-.category-title {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 5px;
-    color: #343a40;
-}
-
-
-.category-vacancy {
-    font-size: 0.9rem;
-    color: #6c757d;
-}
-
-.category-card a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.category-card a:hover {
-    text-decoration: none;
-}
-/*Job  Category End*/
-
-
 /*job list*/
 
 body {

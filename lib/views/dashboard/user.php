@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../../css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../css/home.css">
     <link rel="stylesheet" href="../../../css/nav.css">
+    <link rel="stylesheet" href="../../../css/jbct.css">
     
 </head>
 <body>
@@ -102,7 +103,7 @@
              <a href="">
                 <div class="category-card">
                     <div class="category-icon">&#128231;</div>
-                    <div class="category-title">Marketing</div>
+                    <div class="category-title">Marketing & Maneging</div>
                     <div class="category-vacancy">5 Vacancy</div>
                 </div>
                </a>
@@ -219,7 +220,7 @@
                     <p class="deadline">Deadline: 01 Jan, 2045</p>
                 </div>
                 <div class="job-apply">
-                    <button class="btn btn-success">Apply Now</button>
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
                 </div>
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
