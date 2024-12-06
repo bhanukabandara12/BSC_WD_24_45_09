@@ -59,7 +59,7 @@
              <a href="">
                 <div class="category-card">
                     <div class="category-icon">&#128231;</div>
-                    <div class="category-title">Marketing & Maneging</div>
+                    <div class="category-title">Marketing </div>
                     <div class="category-vacancy">5 Vacancy</div>
                 </div>
                </a>
@@ -129,7 +129,7 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
 
 
 

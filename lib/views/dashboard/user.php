@@ -58,17 +58,17 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../../../images/gg.jpg" class="d-block w-100 img-fluid" alt="First slide">
+      <img src="../../../images/123.png" class="d-block w-100 img-fluid" alt="First slide">
       <div class="container">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../../../images/gg.jpg" class="d-block w-100 img-fluid" alt="Second slide">
+      <img src="../../../images/1.png" class="d-block w-100 img-fluid" alt="Second slide">
       <div class="container">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../../../images/gg.jpg" class="d-block w-100 img-fluid" alt="Third slide">
+      <img src="../../../images/2.png" class="d-block w-100 img-fluid" alt="Third slide">
       <div class="container">
       </div>
     </div>
@@ -103,7 +103,7 @@
              <a href="">
                 <div class="category-card">
                     <div class="category-icon">&#128231;</div>
-                    <div class="category-title">Marketing & Maneging</div>
+                    <div class="category-title">Marketing</div>
                     <div class="category-vacancy">5 Vacancy</div>
                 </div>
                </a>
