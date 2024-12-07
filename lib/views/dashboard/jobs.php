@@ -51,19 +51,19 @@
 <!--marketing jobs-->
 <div class="section">
 <div class="container mt-5">
-        <h1 class="text-center mb-4">Marketing</h1>
+        <h1 class="text-center mb-4" id = "first">Marketing</h1>
         <div class="job-listing">
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="../../../images/Untitled design.png" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="../../../images/17.jpg" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
+                    <h2 class="mb-1">Marketing manager LAUGFS Super</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Negambo,Sri Lanka</span> | 
+                        <span class="salary">Rs 75 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 28 Dec, 2024</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -71,15 +71,15 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="international-hearts-logo.png" alt="International     bb" class="img-fluid" width="50">
+                    <img src="../../../images/18.jpg" alt="International     bb" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Marketing Manager</h2>
+                    <h2 class="mb-1">Digital Marketing Manager</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Abans KCC, Kandy</span> | 
+                        <span class="salary">Rs 55 000 - Rs 85 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 25 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -87,15 +87,15 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="techcom-logo.png" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="../../../images/19.jpg" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
+                    <h2 class="mb-1">Digital Marketing Manager Pizza Hut</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Kundasale, Kandy</span> | 
+                        <span class="salary">Rs 45 000 - Rs 55 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 17 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -110,19 +110,19 @@
 <!--start coustomer service jos-->
 <div class="section">
 <div class="container mt-5">
-        <h1 class="text-center mb-4">Coustomer Service</h1>
+        <h1 class="text-center mb-4" id = "custom">Coustomer Service</h1>
         <div class="job-listing">
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="../../../images/Untitled design.png" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="../../../images/15.png" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
+                    <h2 class="mb-1">Coustomer Service Assistant</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">kadawatha,Colombo</span> | 
+                        <span class="salary">Rs 55 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 03 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -130,15 +130,15 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="international-hearts-logo.png" alt="International     bb" class="img-fluid" width="50">
+                    <img src="../../../images/20.jpg" alt="International     bb" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Marketing Manager</h2>
+                    <h2 class="mb-1">Delivery Rider Full Time</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Peradeniya, Kandy</span> | 
+                        <span class="salary">Rs 25 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -146,15 +146,15 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="techcom-logo.png" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="../../../images/21.png" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
+                    <h2 class="mb-1">Customer Relationship Assistant - SEYLAN BANK</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Anuradhapura, Sri Lanka</span> | 
+                        <span class="salary">Rs 55 000 - Rs 75 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -166,21 +166,23 @@
 </div>
 
 <!--end coustomer service jos-->
+
+<!--start human job-->
 <div class="section">
 <div class="container mt-5">
-        <h1 class="text-center mb-4">Project Management</h1>
+        <h1 class="text-center mb-4" id = "human">Human Resource</h1>
         <div class="job-listing">
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="../../../images/Untitled design.png" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="../../../images/28.jpg" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
+                    <h2 class="mb-1">HR Coordinatot - Arpico </h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Kundasale, Kandy</span> | 
+                        <span class="salary">Rs 50 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -188,15 +190,15 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="international-hearts-logo.png" alt="International     bb" class="img-fluid" width="50">
+                    <img src="../../../images/18.jpg" alt="International     bb" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Marketing Manager</h2>
+                    <h2 class="mb-1">Abans Internship HR (Male)</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Colombo</span> | 
+                        <span class="salary">Rs 45 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 05 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -204,15 +206,15 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="techcom-logo.png" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="../../../images/24.jpg" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
+                    <h2 class="mb-1">Internship HR - Dialog Sri Lanka</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Galle, Sri Lanka</span> | 
+                        <span class="salary">Rs 45 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 01 Feb, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -222,23 +224,25 @@
         </div>
     </div>
 </div>
+<!--end human job-->
 
-<!--start human resource job-->
+<!--start project mang-->
+    
 <div class="section">
 <div class="container mt-5">
-        <h1 class="text-center mb-4">Business Development</h1>
+        <h1 class="text-center mb-4" id = "prma">Project Management</h1>
         <div class="job-listing">
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="../../../images/Untitled design.png" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="../../../images/22.png" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
+                    <h2 class="mb-1">Senior Software Developer </h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Colombo, Sri Lanka</span> | 
+                        <span class="salary">Rs 100 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -246,15 +250,15 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="international-hearts-logo.png" alt="International     bb" class="img-fluid" width="50">
+                    <img src="../../../images/23.jpg" alt="International     bb" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Marketing Manager</h2>
+                    <h2 class="mb-1">Junior Porject Manager - SLT Mobitel</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Kandy</span> | 
+                        <span class="salary">Rs 75 000 - Rs 100 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -262,15 +266,15 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="techcom-logo.png" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="../../../images/24.jpg" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
+                    <h2 class="mb-1">Porject Manage - Dialog Sri Lanka</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Galle, Sri Lanka</span> | 
+                        <span class="salary">Rs 150 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 01 Feb, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -280,12 +284,246 @@
         </div>
     </div>
 </div>
-<!--end human resource job-->
+<!--end project manage-->
 
-
+<!--Businuss dev job-->
+<div class="section">
+<div class="container mt-5">
+        <h1 class="text-center mb-4" id = "bude">Business Development</h1>
+        <div class="job-listing">
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/25.jpg" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Group Finance Manager - Lassana Flora</h2>
+                    <p class="mb-1">
+                        <span class="location">New York, USA</span> | 
+                        <span class="salary">$123 - $456</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/26.jpg" alt="International     bb" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Sales Dalegate - HEMAS Pharmaceuticals</h2>
+                    <p class="mb-1">
+                        <span class="location">New York, USA</span> | 
+                        <span class="salary">$123 - $456</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/27.jpg" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Area Sales Manager - Royal Ceramics</h2>
+                    <p class="mb-1">
+                        <span class="location">Katugastota, Kandy</span> | 
+                        <span class="salary">Rs 100 000 - Rs 120 000</span>
+                    </p>
+                    <p class="deadline">Deadline: 13 Jan, 2025</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
 <!--end-->
 
+<!--start seales & communication job-->
+   
+<div class="section">
+<div class="container mt-5">
+        <h1 class="text-center mb-4" id = "sale">Sales & Communication</h1>
+        <div class="job-listing">
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/26.jpg" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Sales Delegate - HEMAS PVT </h2>
+                    <p class="mb-1">
+                        <span class="location">Colombo, Sri Lanka</span> | 
+                        <span class="salary">Rs 100 000 up</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/29.jpg" alt="International     bb" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Aftre Sales Executive</h2>
+                    <p class="mb-1">
+                        <span class="location">Galle / Colombo</span> | 
+                        <span class="salary">Rs 75 000 - Rs 100 000</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/27.jpg" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Showroom Manager Royal Ceramics</h2>
+                    <p class="mb-1">
+                        <span class="location">Galle, Sri Lanka</span> | 
+                        <span class="salary">Rs 75 000 up</span>
+                    </p>
+                    <p class="deadline">Deadline: 12 Feb, 2025</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+<!--end job-->
 
+<!--start teacher jobs-->
+     
+<div class="section">
+<div class="container mt-5">
+        <h1 class="text-center mb-4" id = "teach">Teaching & Education</h1>
+        <div class="job-listing">
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/30.png" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">English Lecture at SIBA Campus </h2>
+                    <p class="mb-1">
+                        <span class="location">Pallekele, Kundasale</span> | 
+                        <span class="salary">Rs 55 000 up</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/31.jpg" alt="International     bb" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Pre School Teacher - Kids Play Pre School</h2>
+                    <p class="mb-1">
+                        <span class="location">Kandy</span> | 
+                        <span class="salary">Rs 35 000 - Rs 45 000</span>
+                    </p>
+                    <p class="deadline">Deadline: 16 Jan, 2025</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/32.png" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">IT Lecture at Sliit Campus </h2>
+                    <p class="mb-1">
+                        <span class="location">Kandy, Sri Lanka</span> | 
+                        <span class="salary">Rs 120 000 up</span>
+                    </p>
+                    <p class="deadline">Deadline: 25 Feb, 2025</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+<!--end  teacher jobs-->
+
+<!--start design and creat-->
+   
+<div class="section">
+<div class="container mt-5">
+        <h1 class="text-center mb-4" id = "desi">Design & Creative</h1>
+        <div class="job-listing">
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/33.jpg" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Web Developer - Softlogic PvT LTD </h2>
+                    <p class="mb-1">
+                        <span class="location">Colombo, Sri Lanka</span> | 
+                        <span class="salary">Rs 100 000 up</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/14.jpg" alt="International     bb" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Fashion Designer - ODEL PLC</h2>
+                    <p class="mb-1">
+                        <span class="location">Colombo</span> | 
+                        <span class="salary">Rs 175 000 - Rs 200 000</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/34.jpg" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Tailor - Hameediya Fashion</h2>
+                    <p class="mb-1">
+                        <span class="location">Kandy, Sri Lanka</span> | 
+                        <span class="salary">Rs 50 000 up</span>
+                    </p>
+                    <p class="deadline">Deadline: 12 Feb, 205</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+<!--end-->
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

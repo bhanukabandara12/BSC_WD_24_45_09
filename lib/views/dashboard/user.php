@@ -105,59 +105,59 @@
                 <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Explore By Category</h1>
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#first" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-mail-bulk  mb-4"></i>
                             <h6 class="mb-3">Marketing</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#custom" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-headset  mb-4"></i>
                             <h6 class="mb-3">Customer Service</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#human" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-user-tie  mb-4"></i>
                             <h6 class="mb-3">Human Resource</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-tasks text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#prma" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-tasks  mb-4"></i>
                             <h6 class="mb-3">Project Management</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-chart-line text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#bude" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-chart-line  mb-4"></i>
                             <h6 class="mb-3">Business Development</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-hands-helping text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#sale" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-hands-helping  mb-4"></i>
                             <h6 class="mb-3">Sales & Communication</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-book-reader text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#teach" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-book-reader  mb-4"></i>
                             <h6 class="mb-3">Teaching & Education</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-drafting-compass text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#desi" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-drafting-compass  mb-4"></i>
                             <h6 class="mb-3">Design & Creative</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                 </div>
@@ -203,15 +203,15 @@
         <div class="job-listing">
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="techcom-logo.png" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="../../../images/11.png" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
+                    <h2 class="mb-1">HNB School Leaver Internship</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">All island</span> | 
+                        <span class="salary">Rs 45 000 - Rs 60 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 20 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -219,15 +219,15 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="international-hearts-logo.png" alt="International     bb" class="img-fluid" width="50">
+                    <img src="../../../images/13.png" alt="International     bb" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Marketing Manager</h2>
+                    <h2 class="mb-1">Markerting Manager MAS Company</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Pallekele, BOI</span> | 
+                        <span class="salary">Rs 75 000 - Rs 100 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -235,15 +235,15 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="techcom-logo.png" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="../../../images/14.jpg" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
+                    <h2 class="mb-1">Business Developer at ODEL PLC</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Kandy, Sri lanka</span> | 
+                        <span class="salary">Rs 65 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 19 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -251,15 +251,15 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="techcom-logo.png" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="../../../images/10.png" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
+                    <h2 class="mb-1">Cashier Cargills Food Sity</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Kundasale food sity, Kandy</span> | 
+                        <span class="salary">Rs 25 000 - 34 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 05 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -267,15 +267,15 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="techcom-logo.png" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="../../../images/15.png" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
+                    <h2 class="mb-1">Junior Executive at SINGER Finance</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <span class="location">Yakkala, Colombo</span> | 
+                        <span class="salary">Rs 70 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                    <p class="deadline">Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>

@@ -24,7 +24,7 @@ body {
 
 
 .cat-item i {
-    color: #0caa48;
+    color: #3ECE75;
     margin-bottom: 15px; 
 }
 
@@ -34,13 +34,15 @@ body {
     font-weight: 600;
     margin-bottom: 10px;
     color: black;
+
     
 }
 
 
 .cat-item p {
     font-size: 1rem;
-    color: #6c757d; 
+    color: #343a40; 
+    
 }
 
 
@@ -54,7 +56,8 @@ body {
     }
 
     .cat-item h6 {
-        font-size: 1.1rem; 
+        font-size: 1.1rem;
+        text-decoration: none; 
     }
 }
 
@@ -62,6 +65,7 @@ body {
 .container-xxl {
     padding-top: 80px; 
     padding-bottom: 80px; 
+    
 }
 
 
@@ -74,15 +78,5 @@ h1 {
 
 .row.g-4 {
     margin-top: 40px;
-}
-
-/* Remove underline from category links */
-.cat-item a {
-    text-decoration: none; /* Remove underline */
-}
-
-/* Optional: Add underline on hover if needed */
-.cat-item a:hover {
-    text-decoration: none; /* Ensure no underline on hover */
 }
 

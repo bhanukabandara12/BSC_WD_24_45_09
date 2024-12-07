@@ -57,66 +57,66 @@
                 <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Explore By Category</h1>
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item rounded p-4" href="jobs.php" target="_self">
-                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#first" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-mail-bulk  mb-4"></i>
                             <h6 class="mb-3">Marketing</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item rounded p-4" href="jobs.php" target="_self">
-                            <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#custom" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-headset  mb-4"></i>
                             <h6 class="mb-3">Customer Service</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#human" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-user-tie  mb-4"></i>
                             <h6 class="mb-3">Human Resource</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-tasks text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#prma" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-tasks  mb-4"></i>
                             <h6 class="mb-3">Project Management</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-chart-line text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#bude" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-chart-line  mb-4"></i>
                             <h6 class="mb-3">Business Development</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-hands-helping text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#sale" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-hands-helping  mb-4"></i>
                             <h6 class="mb-3">Sales & Communication</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-book-reader text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#teach" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-book-reader  mb-4"></i>
                             <h6 class="mb-3">Teaching & Education</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-drafting-compass text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php#desi" style="text-decoration: none;">
+                            <i class="fa fa-3x fa-drafting-compass  mb-4"></i>
                             <h6 class="mb-3">Design & Creative</h6>
-                            <p class="mb-0">123 Vacancy</p>
+                            <p class="mb-0">3 Vacancy</p>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
 </div>
-        <!-- Category End -->
+<!-- Category End -->
 
 
 
