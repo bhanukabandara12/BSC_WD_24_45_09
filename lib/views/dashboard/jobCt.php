@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../../css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../css/nav.css">
     <link rel="stylesheet" href="../../../css/jbct.css">
-    <!--<link rel="stylesheet" href="../../../css/home.css">-->
+    <link rel="stylesheet" href="../../../css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
 </head>
@@ -57,14 +57,14 @@
                 <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Explore By Category</h1>
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item rounded p-4" href="">
+                        <a class="cat-item rounded p-4" href="jobs.php" target="_self">
                             <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
                             <h6 class="mb-3">Marketing</h6>
                             <p class="mb-0">123 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item rounded p-4" href="">
+                        <a class="cat-item rounded p-4" href="jobs.php" target="_self">
                             <i class="fa fa-3x fa-headset text-primary mb-4"></i>
                             <h6 class="mb-3">Customer Service</h6>
                             <p class="mb-0">123 Vacancy</p>

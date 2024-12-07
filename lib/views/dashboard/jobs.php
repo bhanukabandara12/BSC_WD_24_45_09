@@ -48,9 +48,10 @@
 <!--Nav Bar End-->
 
 <br><br><br><br>
+<!--marketing jobs-->
 <div class="section">
 <div class="container mt-5">
-        <h1 class="text-center mb-4">Job Listing</h1>
+        <h1 class="text-center mb-4">Marketing</h1>
         <div class="job-listing">
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
@@ -100,41 +101,188 @@
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
                 </div>
             </div>
-            <div class="job d-flex align-items-center mb-3 p-3">
-                <div class="job-logo mr-3">
-                    <img src="techcom-logo.png" alt="TechCom Logo" class="img-fluid" width="50">
-                </div>
-                <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
-                    <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
-                    </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
-                </div>
-                <div class="job-apply">
-                <a href="apply.php" class="btn btn-success">Apply Now</a>
-                </div>
-            </div>
-            <div class="job d-flex align-items-center mb-3 p-3">
-                <div class="job-logo mr-3">
-                    <img src="techcom-logo.png" alt="TechCom Logo" class="img-fluid" width="50">
-                </div>
-                <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Software Engineer</h2>
-                    <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
-                    </p>
-                    <p class="deadline">Deadline: 01 Jan, 2045</p>
-                </div>
-                <div class="job-apply">
-                <a href="apply.php" class="btn btn-success">Apply Now</a>
-                </div>
-            </div>
+           
         </div>
     </div>
+</div>
+<!--end marketing jobs-->
+
+<!--start coustomer service jos-->
+<div class="section">
+<div class="container mt-5">
+        <h1 class="text-center mb-4">Coustomer Service</h1>
+        <div class="job-listing">
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/Untitled design.png" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Software Engineer</h2>
+                    <p class="mb-1">
+                        <span class="location">New York, USA</span> | 
+                        <span class="salary">$123 - $456</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="international-hearts-logo.png" alt="International     bb" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Marketing Manager</h2>
+                    <p class="mb-1">
+                        <span class="location">New York, USA</span> | 
+                        <span class="salary">$123 - $456</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="techcom-logo.png" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Software Engineer</h2>
+                    <p class="mb-1">
+                        <span class="location">New York, USA</span> | 
+                        <span class="salary">$123 - $456</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+           
+        </div>
     </div>
+</div>
+
+<!--end coustomer service jos-->
+<div class="section">
+<div class="container mt-5">
+        <h1 class="text-center mb-4">Project Management</h1>
+        <div class="job-listing">
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/Untitled design.png" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Software Engineer</h2>
+                    <p class="mb-1">
+                        <span class="location">New York, USA</span> | 
+                        <span class="salary">$123 - $456</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="international-hearts-logo.png" alt="International     bb" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Marketing Manager</h2>
+                    <p class="mb-1">
+                        <span class="location">New York, USA</span> | 
+                        <span class="salary">$123 - $456</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="techcom-logo.png" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Software Engineer</h2>
+                    <p class="mb-1">
+                        <span class="location">New York, USA</span> | 
+                        <span class="salary">$123 - $456</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+<!--start human resource job-->
+<div class="section">
+<div class="container mt-5">
+        <h1 class="text-center mb-4">Business Development</h1>
+        <div class="job-listing">
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="../../../images/Untitled design.png" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Software Engineer</h2>
+                    <p class="mb-1">
+                        <span class="location">New York, USA</span> | 
+                        <span class="salary">$123 - $456</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="international-hearts-logo.png" alt="International     bb" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Marketing Manager</h2>
+                    <p class="mb-1">
+                        <span class="location">New York, USA</span> | 
+                        <span class="salary">$123 - $456</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+            <div class="job d-flex align-items-center mb-3 p-3">
+                <div class="job-logo mr-3">
+                    <img src="techcom-logo.png" alt="TechCom Logo" class="img-fluid" width="50">
+                </div>
+                <div class="job-details flex-grow-1">
+                    <h2 class="mb-1">Software Engineer</h2>
+                    <p class="mb-1">
+                        <span class="location">New York, USA</span> | 
+                        <span class="salary">$123 - $456</span>
+                    </p>
+                    <p class="deadline">Deadline: 01 Jan, 2045</p>
+                </div>
+                <div class="job-apply">
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+<!--end human resource job-->
+
+
 <!--end-->
 
 

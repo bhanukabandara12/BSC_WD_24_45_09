@@ -24,7 +24,7 @@ body {
 
 
 .cat-item i {
-    color: #3ECE75;
+    color: #0caa48;
     margin-bottom: 15px; 
 }
 
@@ -33,6 +33,8 @@ body {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 10px;
+    color: black;
+    
 }
 
 
