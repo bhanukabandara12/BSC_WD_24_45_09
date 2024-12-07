@@ -2,51 +2,85 @@ body {
     background-color: rgb(236, 236, 221) !important;
   }
   
-  .category-card {
-    background: #fff;
-    border-radius: 8px;
-    padding: 20px;
+
+.cat-item {
+    background-color: #f8f9fa; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    
-}
-
-.category-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 
-.category-icon {
-    font-size: 40px;
-    color: #007bff;
+.cat-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+
+.cat-item i {
+    color: #3ECE75;
+    margin-bottom: 15px; 
+}
+
+
+.cat-item h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
-.category-title {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 5px;
-    color: #343a40;
+
+.cat-item p {
+    font-size: 1rem;
+    color: #6c757d; 
 }
 
 
-.category-vacancy {
-    font-size: 0.9rem;
-    color: #6c757d;
+@media (max-width: 768px) {
+    .cat-item {
+        padding: 20px; 
+    }
+
+    .cat-item i {
+        font-size: 2.5rem;
+    }
+
+    .cat-item h6 {
+        font-size: 1.1rem; 
+    }
 }
 
-.category-card a {
-    text-decoration: none;
-    color: inherit;
-    
+
+.container-xxl {
+    padding-top: 80px; 
+    padding-bottom: 80px; 
 }
 
-.category-card a:hover {
-    text-decoration: none;
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #343a40; 
 }
 
-.category-title {
-    color: green;
+
+.row.g-4 {
+    margin-top: 40px;
 }
+
+/* Remove underline from category links */
+.cat-item a {
+    text-decoration: none; /* Remove underline */
+}
+
+/* Optional: Add underline on hover if needed */
+.cat-item a:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+}
+

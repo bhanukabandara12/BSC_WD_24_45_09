@@ -6,6 +6,8 @@
     <title>JobEntry</title>
     <link rel="stylesheet" href="../../../css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../css/nav.css">
+    <link rel="stylesheet" href="../../../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
 </head>
 <body>
@@ -48,8 +50,53 @@
 </nav>
 <!--Nav Bar End-->
 
-<br><br><br><br>
+<br><br><br><br><br>
 <!--contract form-->
+
+<div class="container-fluid col-md-6 form-outline">
+  <h1 class="text-center" style="font-weight: bold;">Let's Contact Us</h1>
+
+  <form>
+      <div class="form-group">
+          <i class="fas fa-tasks"></i>
+          <label for="requestType">Request Type</label>
+          <select class="form-control" id="requestType" required>
+              <option value="">Job interviwe problem</option>
+              <option>Candidate Application Reviews</option>
+              <option>Job Posting Assistance</option>
+              <option>Other</option>
+          </select>
+      </div>
+      <div class="form-group">
+          <i class="fas fa-user"></i>
+          <label for="firstName">First Name</label>
+          <input type="text" class="form-control" id="firstName" required>
+      </div>
+      <div class="form-group">
+          <i class="fas fa-user"></i>
+          <label for="lastName">Last Name</label>
+          <input type="text" class="form-control" id="lastName" required>
+      </div>
+      <div class="form-group">
+          <i class="fas fa-phone"></i>
+          <label for="contactNumber">Contact Number</label>
+          <input type="number" class="form-control" id="contactNumber" required>
+      </div>
+      <div class="form-group">
+          <i class="fas fa-envelope"></i>
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" required>
+      </div>
+      
+      <div class="form-group">
+          <i class="fas fa-comment"></i>
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+      </div>
+      <br><br>
+      <input class="btn btn-primary w-100 py-2" type="submit" value="Submit">
+
+  </form>
 
 <!--end of contact form-->
 

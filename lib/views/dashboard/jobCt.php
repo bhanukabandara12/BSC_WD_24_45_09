@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="../../../css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../css/nav.css">
     <link rel="stylesheet" href="../../../css/jbct.css">
-    <link rel="stylesheet" href="../../../css/home.css">
+    <!--<link rel="stylesheet" href="../../../css/home.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
 </head>
 <body>
         <!--Nav Bar-->
@@ -49,87 +51,72 @@
 <!--Nav Bar End-->
 <br><br><br><br>
 <!--job cat-->
-
 <div class="section">
-<div class="container mt-5">
-        <h2 class="text-center mb-4">Explore By Category</h2>
-        <br>
-        <div class="row">
-            <div class="col-md-3 mb-4">
-             <a href="">
-                <div class="category-card">
-                    <div class="category-icon">&#128231;</div>
-                    <div class="category-title">Marketing </div>
-                    <div class="category-vacancy">5 Vacancy</div>
+<div class="container-xxl py-5">
+            <div class="container">
+                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Explore By Category</h1>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
+                            <h6 class="mb-3">Marketing</h6>
+                            <p class="mb-0">123 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                            <h6 class="mb-3">Customer Service</h6>
+                            <p class="mb-0">123 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                            <h6 class="mb-3">Human Resource</h6>
+                            <p class="mb-0">123 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-tasks text-primary mb-4"></i>
+                            <h6 class="mb-3">Project Management</h6>
+                            <p class="mb-0">123 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-chart-line text-primary mb-4"></i>
+                            <h6 class="mb-3">Business Development</h6>
+                            <p class="mb-0">123 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-hands-helping text-primary mb-4"></i>
+                            <h6 class="mb-3">Sales & Communication</h6>
+                            <p class="mb-0">123 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-book-reader text-primary mb-4"></i>
+                            <h6 class="mb-3">Teaching & Education</h6>
+                            <p class="mb-0">123 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-drafting-compass text-primary mb-4"></i>
+                            <h6 class="mb-3">Design & Creative</h6>
+                            <p class="mb-0">123 Vacancy</p>
+                        </a>
+                    </div>
                 </div>
-               </a>
-            </div>
-            <div class="col-md-3 mb-4">
-              <a href="">
-                <div class="category-card">
-                    <div class="category-icon">&#128222;</div>
-                    <div class="category-title">Customer Service</div>
-                    <div class="category-vacancy">5 Vacancy</div>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-3 mb-4">
-              <a href="">
-                <div class="category-card">
-                    <div class="category-icon">&#128100;</div>
-                    <div class="category-title">Human Resource</div>
-                    <div class="category-vacancy">5 Vacancy</div>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-3 mb-4">
-            <a href="">
-                <div class="category-card">
-                    <div class="category-icon">&#128221;</div>
-                    <div class="category-title">Project Management</div>
-                    <div class="category-vacancy">5 Vacancy</div>
-                </div>
-                </a>
-            </div>
-            <div class="col-md-3 mb-4">
-               <a href="">
-                <div class="category-card">
-                    <div class="category-icon">&#128200;</div>
-                    <div class="category-title">Business Development</div>
-                    <div class="category-vacancy">5 Vacancy</div>
-                </div>
-               </a>
-            </div>
-            <div class="col-md-3 mb-4">
-            <a href="">
-                <div class="category-card">
-                    <div class="category-icon">&#128172;</div>
-                    <div class="category-title">Sales & Communication</div>
-                    <div class="category-vacancy">5 Vacancy</div>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-3 mb-4">
-            <a href="">
-                <div class="category-card">
-                    <div class="category-icon">&#128218;</div>
-                    <div class="category-title">Teaching & Education</div>
-                    <div class="category-vacancy">5 Vacancy</div>
-                </div>
-               </a>
-            </div>
-            <div class="col-md-3 mb-4">
-              <a href="">
-                <div class="category-card">
-                    <div class="category-icon">&#128736;</div>
-                    <div class="category-title">Design & Creative</div>
-                    <div class="category-vacancy">5 Vacancy</div>
-                </div>
-                </a>
             </div>
         </div>
-    </div>
-    </div>
+</div>
+        <!-- Category End -->
 
 
 

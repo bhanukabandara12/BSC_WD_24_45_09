@@ -65,7 +65,7 @@
                     <p class="deadline">Deadline: 01 Jan, 2045</p>
                 </div>
                 <div class="job-apply">
-                    <button class="btn btn-success">Apply Now</button>
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
                 </div>
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
@@ -81,7 +81,7 @@
                     <p class="deadline">Deadline: 01 Jan, 2045</p>
                 </div>
                 <div class="job-apply">
-                    <button class="btn btn-success">Apply Now</button>
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
                 </div>
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
@@ -97,7 +97,7 @@
                     <p class="deadline">Deadline: 01 Jan, 2045</p>
                 </div>
                 <div class="job-apply">
-                    <button class="btn btn-success">Apply Now</button>
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
                 </div>
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
@@ -113,7 +113,7 @@
                     <p class="deadline">Deadline: 01 Jan, 2045</p>
                 </div>
                 <div class="job-apply">
-                    <button class="btn btn-success">Apply Now</button>
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
                 </div>
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
@@ -129,7 +129,7 @@
                     <p class="deadline">Deadline: 01 Jan, 2045</p>
                 </div>
                 <div class="job-apply">
-                    <button class="btn btn-success">Apply Now</button>
+                <a href="apply.php" class="btn btn-success">Apply Now</a>
                 </div>
             </div>
         </div>
