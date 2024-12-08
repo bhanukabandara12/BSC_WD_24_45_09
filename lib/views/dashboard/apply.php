@@ -55,7 +55,7 @@
 <!--contract form-->
 <div class="section">
 <div class="container-fluid col-md-6 form-outline">
-  <h1 class="text-center" style="font-weight: bold;">Apply Job</h1>
+  <h1 class="text-center" style="font-weight: bold;">Apply a Job</h1>
 
   <form>
   <div class="form-group">

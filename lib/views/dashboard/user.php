@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="../../../css/home.css">
     <link rel="stylesheet" href="../../../css/nav.css">
     <link rel="stylesheet" href="../../../css/jbct.css">
+    <!--<link rel="stylesheet" href="../../../css/client.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
    <!--Job list icon color--> 
     <style>
+  
          .fa-map-marker-alt {
             color:#3ECE75; 
         }
@@ -222,7 +224,7 @@
 <!-- Category End -->
 
 
-<!--avilable jobs-->
+<!--about-->
 <div class="section">
 <div class="container mt-5">
         <div class="row">
@@ -249,6 +251,7 @@
 </div>
 
 <!--end-->
+
 <!--job list-->
 <div class="section">
 <div class="container mt-5">
@@ -274,7 +277,7 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="../../../images/13.png" alt="International     bb" class="img-fluid" width="50">
+                    <img src="../../../images/mas.png" alt="International     bb" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Markerting Manager MAS Company</h2>
@@ -292,7 +295,7 @@
             </div>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="../../../images/14.jpg" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="../../../images/odel.png" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Business Developer at ODEL PLC</h2>
@@ -354,9 +357,10 @@
          </a>
  </div>
 
-<!--cu say-->
+
 
 <!-- Customer Testimonials -->
+ <div class="section">
 <section class="testimonials">
     <div class="container">
         <div class="section-header">
@@ -364,7 +368,7 @@
         </div>
         <div class="testimonials-content js-testimonials-slider swiper">
             <div class="swiper-wrapper">
-                <!-- Testimonial 1 -->
+                
                 <div class="swiper-slide testimonials-item">
                     <div class="info">
                         <img src="../../../images/kav.jpg" alt="Client Image">
@@ -381,7 +385,6 @@
                         <i class="fa fa-star"></i>
                     </div>
                 </div>
-                <!-- Add more testimonials as needed -->
 
                 <div class="swiper-slide testimonials-item">
                     <div class="info">
@@ -461,6 +464,7 @@
         </div>
     </div>
 </section>
+</div>
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -482,6 +486,19 @@
 
  
  <!--end-->
+
+<!--footer section-->
+ 
+<!--end-->
+
+
+
+
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="../../../js/script.js"></script>
 
