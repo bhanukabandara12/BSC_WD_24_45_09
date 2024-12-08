@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="../../../css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../css/nav.css">
     <link rel="stylesheet" href="../../../css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+     
+    <style>
+         .fa-map-marker-alt {
+            color:#3ECE75; 
+        }
+
+        .fa-wallet{
+            color:#3ECE75; 
+        }
+
+        .fa-calendar-alt{
+            color:#3ECE75; 
+        }
+    </style>
 </head>
 <body>
         <!--Nav Bar-->
@@ -48,6 +63,7 @@
 <!--Nav Bar End-->
 
 <br><br><br><br>
+<!--start jobs-->
 <!--marketing jobs-->
 <div class="section">
 <div class="container mt-5">
@@ -60,10 +76,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Marketing manager LAUGFS Super</h2>
                     <p class="mb-1">
+                        <i class="fas fa-map-marker-alt"></i>
                         <span class="location">Negambo,Sri Lanka</span> | 
+                        <i class="fas fa-wallet"></i>
                         <span class="salary">Rs 75 000</span>
                     </p>
-                    <p class="deadline">Deadline: 28 Dec, 2024</p>
+                    <p  class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 28 Dec, 2024</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -76,10 +94,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Digital Marketing Manager</h2>
                     <p class="mb-1">
-                        <span class="location">Abans KCC, Kandy</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Abans KCC, Kandy</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 55 000 - Rs 85 000</span>
                     </p>
-                    <p class="deadline">Deadline: 25 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 25 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -92,10 +112,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Digital Marketing Manager Pizza Hut</h2>
                     <p class="mb-1">
+                        <i class="fas fa-map-marker-alt"></i>
                         <span class="location">Kundasale, Kandy</span> | 
+                        <i class="fas fa-wallet"></i>
                         <span class="salary">Rs 45 000 - Rs 55 000</span>
                     </p>
-                    <p class="deadline">Deadline: 17 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 17 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -119,10 +141,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Coustomer Service Assistant</h2>
                     <p class="mb-1">
+                        <i class="fas fa-map-marker-alt"></i>
                         <span class="location">kadawatha,Colombo</span> | 
+                        <i class="fas fa-wallet"></i>
                         <span class="salary">Rs 55 000</span>
                     </p>
-                    <p class="deadline">Deadline: 03 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 03 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -135,10 +159,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Delivery Rider Full Time</h2>
                     <p class="mb-1">
-                        <span class="location">Peradeniya, Kandy</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Peradeniya, Kandy</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 25 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -151,10 +177,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Customer Relationship Assistant - SEYLAN BANK</h2>
                     <p class="mb-1">
+                        <i class="fas fa-map-marker-alt"></i>
                         <span class="location">Anuradhapura, Sri Lanka</span> | 
+                        <i class="fas fa-wallet"></i>
                         <span class="salary">Rs 55 000 - Rs 75 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -177,12 +205,14 @@
                     <img src="../../../images/28.jpg" alt="TechCom Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">HR Coordinatot - Arpico </h2>
+                    <h2 class="mb-1">HR Coordinator - Arpico </h2>
                     <p class="mb-1">
+                        <i class="fas fa-map-marker-alt"></i>
                         <span class="location">Kundasale, Kandy</span> | 
+                        <i class="fas fa-wallet"></i>
                         <span class="salary">Rs 50 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -195,10 +225,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Abans Internship HR (Male)</h2>
                     <p class="mb-1">
-                        <span class="location">Colombo</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Colombo</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 45 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 05 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 05 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -211,10 +243,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Internship HR - Dialog Sri Lanka</h2>
                     <p class="mb-1">
-                        <span class="location">Galle, Sri Lanka</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Galle, Sri Lanka</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 45 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Feb, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Feb, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -239,10 +273,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Senior Software Developer </h2>
                     <p class="mb-1">
-                        <span class="location">Colombo, Sri Lanka</span> | 
+                       <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Colombo, Sri Lanka</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 100 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -255,10 +291,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Junior Porject Manager - SLT Mobitel</h2>
                     <p class="mb-1">
+                        <i class="fas fa-map-marker-alt"></i>
                         <span class="location">Kandy</span> | 
+                        <i class="fas fa-wallet"></i>
                         <span class="salary">Rs 75 000 - Rs 100 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -271,10 +309,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Porject Manage - Dialog Sri Lanka</h2>
                     <p class="mb-1">
-                        <span class="location">Galle, Sri Lanka</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Galle, Sri Lanka</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 150 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Feb, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Feb, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -298,10 +338,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Group Finance Manager - Lassana Flora</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Colombo</span> |
+                        <i class="fas fa-wallet"></i> 
+                        <span class="salary">Rs 55 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -314,10 +356,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Sales Dalegate - HEMAS Pharmaceuticals</h2>
                     <p class="mb-1">
-                        <span class="location">New York, USA</span> | 
-                        <span class="salary">$123 - $456</span>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Kundasale, Kandy</span> |
+                        <i class="fas fa-wallet"></i> 
+                        <span class="salary">Rs 75 000 - Rs 100 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -330,10 +374,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Area Sales Manager - Royal Ceramics</h2>
                     <p class="mb-1">
-                        <span class="location">Katugastota, Kandy</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Katugastota, Kandy</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 100 000 - Rs 120 000</span>
                     </p>
-                    <p class="deadline">Deadline: 13 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 13 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -358,10 +404,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Sales Delegate - HEMAS PVT </h2>
                     <p class="mb-1">
-                        <span class="location">Colombo, Sri Lanka</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Colombo, Sri Lanka</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 100 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -374,10 +422,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Aftre Sales Executive</h2>
                     <p class="mb-1">
-                        <span class="location">Galle / Colombo</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Galle / Colombo</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 75 000 - Rs 100 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -390,10 +440,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Showroom Manager Royal Ceramics</h2>
                     <p class="mb-1">
-                        <span class="location">Galle, Sri Lanka</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Galle, Sri Lanka</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 75 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 12 Feb, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 12 Feb, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -418,10 +470,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">English Lecture at SIBA Campus </h2>
                     <p class="mb-1">
-                        <span class="location">Pallekele, Kundasale</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Pallekele, Kundasale</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 55 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -434,10 +488,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Pre School Teacher - Kids Play Pre School</h2>
                     <p class="mb-1">
-                        <span class="location">Kandy</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Kandy</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 35 000 - Rs 45 000</span>
                     </p>
-                    <p class="deadline">Deadline: 16 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 16 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -450,10 +506,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">IT Lecture at Sliit Campus </h2>
                     <p class="mb-1">
-                        <span class="location">Kandy, Sri Lanka</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Kandy, Sri Lanka</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 120 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 25 Feb, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 25 Feb, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -478,10 +536,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Web Developer - Softlogic PvT LTD </h2>
                     <p class="mb-1">
-                        <span class="location">Colombo, Sri Lanka</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Colombo, Sri Lanka</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 100 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -494,10 +554,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Fashion Designer - ODEL PLC</h2>
                     <p class="mb-1">
-                        <span class="location">Colombo</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Colombo</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 175 000 - Rs 200 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -510,10 +572,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Tailor - Hameediya Fashion</h2>
                     <p class="mb-1">
-                        <span class="location">Kandy, Sri Lanka</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Kandy, Sri Lanka</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 50 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 12 Feb, 205</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 12 Feb, 205</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>

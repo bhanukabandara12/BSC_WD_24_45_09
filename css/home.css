@@ -13,7 +13,7 @@ body {
  
 
 h2 {
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: black;
 }
 
@@ -21,7 +21,7 @@ h2 {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+   
 }
 h1 {
     font-weight: bold;
@@ -53,9 +53,82 @@ h1 {
     padding: 0.5rem 1rem;
 }
 
+/*end*/
+
+.bg-primary {
+    background-color: #3ECE75 !important;
+}
+
+/*client say*/
+
+.section-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header h2{
+    color: #343a40;
+}
+.section-header.title{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+    line-height: 1.2;
+}
+
+.testimonials{
+    padding: 100px;
+}
+
+.testimonials-item{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.testimonials-item .info{
+    display: flex;
+    align-items: center;
+}
 
 
+.testimonials-item img{
+    max-width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
 
+.testimonials-item .name{
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 1.2;
+}
 
+.testimonials-item .job{
+    text-transform: capitalize;
+}
 
+.testimonials-item p{
+    margin-top: 20px;
+}
+
+.testimonials-item .rating{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ddbb26;
+}
+
+.testimonials .swiper-pagination{
+    position: relative;
+    margin-top: 40px;
+    bottom: auto;
+}
+
+.testimonials .swiper-pagination-bullet{
+    height: 12px;
+    width: 12px;
+}
 /*end*/

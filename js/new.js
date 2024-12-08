@@ -1,10 +1,14 @@
-/*client say*/
-document.addEventListener('DOMContentLoaded', function() {
-    var dots = document.querySelectorAll('.dot');
-    dots.forEach(function(dot, index) {
-        dot.addEventListener('click', function() {
-            dots.forEach(d => d.classList.remove('active'));
-            dot.classList.add('active');
-        });
-    });
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+const swiper = new Swiper('.js-testimonials-slider', {
+    grabCursor: true,
+    spaceBetween: 30,
+    pagination: {
+        el: '.js-testimonials-pagination',
+        clickable: true,
+    },
+    breakpoints: {
+        767: {
+            slidesPerView: 2,
+        },
+    },
 });

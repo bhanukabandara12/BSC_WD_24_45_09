@@ -9,8 +9,22 @@
     <link rel="stylesheet" href="../../../css/nav.css">
     <link rel="stylesheet" href="../../../css/jbct.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   <!--Job list icon color--> 
+    <style>
+         .fa-map-marker-alt {
+            color:#3ECE75; 
+        }
 
-    
+        .fa-wallet{
+            color:#3ECE75; 
+        }
+
+        .fa-calendar-alt{
+            color:#3ECE75; 
+        }
+    </style>
+    <!--end-->
 </head>
 <body>
     <!--Nav Bar-->
@@ -94,7 +108,46 @@
 <!--End hero section-->
 
 <!--search section-->
+<div class="section">
+<div class="container-fluid mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;background-color: #3ECE75">
+    <div class="container">
+        <div class="row g-2">
+            <div class="col-md-10">
+                <div class="row g-2">
+                    <div class="col-md-4">
+                        <input id="nameInput" type="text" class="form-control border-0" placeholder="Enter Your Name" />
+                    </div>
+                    <div class="col-md-4">
+                        <select id="categoryInput" class="form-select border-0">
+                            <option selected>Category</option>
+                            <option value="Marketing">Marketing</option>
+                            <option value="Customer Service">Customer Service</option>
+                            <option value="Human Resource">Human Resource</option>
+                            <option value="Project Management">Project Management</option>
+                            <option value="Business Development">Business Development</option>
+                            <option value="Sales & Communication">Sales & Communication</option>
+                            <option value="Teaching & Education">Teaching & Education</option>
+                            <option value="Design & Creative">Design & Creative</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <select id="locationInput" class="form-select border-0">
+                            <option selected>Location</option>
+                            <option value="Kandy">Kandy</option>
+                            <option value="Colombo">Colombo</option>
+                            <option value="Galle">Galle</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <button id="searchButton" class="btn btn-dark border-0 w-100">Search</button>
+            </div>
+        </div>
+    </div>
+</div>
 
+</div>
 <!--end search section-->
 
 <!--start catogory section-->
@@ -208,10 +261,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">HNB School Leaver Internship</h2>
                     <p class="mb-1">
+                        <i class="fas fa-map-marker-alt"></i>
                         <span class="location">All island</span> | 
+                        <i class="fas fa-wallet"></i>
                         <span class="salary">Rs 45 000 - Rs 60 000</span>
                     </p>
-                    <p class="deadline">Deadline: 20 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 20 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -224,10 +279,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Markerting Manager MAS Company</h2>
                     <p class="mb-1">
+                        <i class="fas fa-map-marker-alt"></i>
                         <span class="location">Pallekele, BOI</span> | 
+                        <i class="fas fa-wallet"></i>
                         <span class="salary">Rs 75 000 - Rs 100 000</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -240,10 +297,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Business Developer at ODEL PLC</h2>
                     <p class="mb-1">
+                        <i class="fas fa-map-marker-alt"></i>
                         <span class="location">Kandy, Sri lanka</span> | 
+                        <i class="fas fa-wallet"></i>
                         <span class="salary">Rs 65 000</span>
                     </p>
-                    <p class="deadline">Deadline: 19 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 19 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -256,10 +315,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Cashier Cargills Food Sity</h2>
                     <p class="mb-1">
-                        <span class="location">Kundasale food sity, Kandy</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Kundasale food sity, Kandy</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 25 000 - 34 000</span>
                     </p>
-                    <p class="deadline">Deadline: 05 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 05 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -272,10 +333,12 @@
                 <div class="job-details flex-grow-1">
                     <h2 class="mb-1">Junior Executive at SINGER Finance</h2>
                     <p class="mb-1">
-                        <span class="location">Yakkala, Colombo</span> | 
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="location">Yakkala, Colombo</span> |
+                        <i class="fas fa-wallet"></i> 
                         <span class="salary">Rs 70 000 up</span>
                     </p>
-                    <p class="deadline">Deadline: 01 Jan, 2025</p>
+                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
                 </div>
                 <div class="job-apply">
                 <a href="apply.php" class="btn btn-success">Apply Now</a>
@@ -286,17 +349,143 @@
     </div>
 <!--end-->
 <div class="container text-center mt-5"> 
-  <a href="jobs.php">
-  <button class="login-button">Browse More Jobs</button>
-</a>
+         <a href="jobs.php">
+            <button class="login-button">Browse More Jobs</button>
+         </a>
  </div>
- <br>
 
- <!--customer say-->
+<!--cu say-->
+
+<!-- Customer Testimonials -->
+<section class="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <h1 class="title">What Our Clients Say</h1>
+        </div>
+        <div class="testimonials-content js-testimonials-slider swiper">
+            <div class="swiper-wrapper">
+                <!-- Testimonial 1 -->
+                <div class="swiper-slide testimonials-item">
+                    <div class="info">
+                        <img src="../../../images/kav.jpg" alt="Client Image">
+                        <div class="text-box">
+                            <h3 class="name">Ishani Fernando</h3>
+                            <span class="job">Human Resource Manager</span>
+                        </div>
+                    </div>
+                    <p>"This platform made my job search process incredibly smooth. The user interface is intuitive, and the job recommendations align perfectly with my skillset. I secured a fantastic role within just a month of signing up!"</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <!-- Add more testimonials as needed -->
+
+                <div class="swiper-slide testimonials-item">
+                    <div class="info">
+                        <img src="../../../images/ish.jpg" alt="Client Image">
+                        <div class="text-box">
+                            <h3 class="name">Kavindi Rathnayake</h3>
+                            <span class="job">Marketing Specialist</span>
+                        </div>
+                    </div>
+                    <p>"I appreciate how comprehensive the website is. From updating my resume to tracking my applications, everything is seamlessly integrated. The blog section also provided helpful tips that boosted my confidence during interviews."</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide testimonials-item">
+                    <div class="info">
+                        <img src="../../../images/tari.jpg" alt="Client Image">
+                        <div class="text-box">
+                            <h3 class="name">Tharindu D Silva</h3>
+                            <span class="job">Graphic Designer</span>
+                        </div>
+                    </div>
+                    <p>"The variety of job listings here is amazing. I found several opportunities that matched my niche expertise. Plus, the ability to connect directly with employers saved me so much time.Thank You."</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide testimonials-item">
+                    <div class="info">
+                        <img src="../../../images/has.jpg" alt="Client Image">
+                        <div class="text-box">
+                            <h3 class="name">Kasun Jayasuriya</h3>
+                            <span class="job">Bank Manager</span>
+                        </div>
+                    </div>
+                    <p>"This site stands out because of its advanced filtering options. I was able to narrow down roles based on location, salary, and industry. The profile-building tool also helped me present my skills effectively to employers."</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                
+            
+                <div class="swiper-slide testimonials-item">
+                <a href="your-link-here.html"style="text-decoration: none;">
+                    <div class="info">
+                        <img src="../../../images/man.jpg" alt="Client Image">
+                        <div class="text-box">
+                        <h3 class="name" style="color:;">Add Your Comment +</h3>
+                            <span class="job"></span>
+                        </div>
+                    </div>
+                    <p >"This website is amazing! It's easy to use, and the job listings perfectly match my skills. I quickly found a great opportunity, and the entire process was so smooth. Highly recommend it to anyone job hunting!"</p>
+                    <div class="rating">
+                         <i class="fa fa-star" style="color:green;"></i>
+                         <i class="fa fa-star" style="color:green;"></i>
+                         <i class="fa fa-star" style="color:green;"></i>
+                         <i class="fa fa-star" style="color:green;"></i>
+
+                    </div>
+                   </a>
+                </div>
+                
+   
+            </div>
+            <div class="swiper-pagination js-testimonials-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.js-testimonials-slider', {
+        grabCursor: true,
+        spaceBetween: 30,
+        pagination: {
+            el: '.js-testimonials-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            767: {
+                slidesPerView: 2,
+            },
+        },
+    });
+</script>
 
  
  <!--end-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="../../../js/new.js"></script>
+<script src="../../../js/script.js"></script>
+
+
+
 </body>
 </html>

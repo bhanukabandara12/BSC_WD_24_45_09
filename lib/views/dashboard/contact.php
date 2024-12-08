@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../../css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../css/nav.css">
     <link rel="stylesheet" href="../../../css/contact.css">
+    <link rel="stylesheet" href="../../../css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
 </head>

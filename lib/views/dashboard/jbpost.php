@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../../css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../css/nav.css">
     <link rel="stylesheet" href="../../../css/contact.css">
+    <link rel="stylesheet" href="../../../css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
 
@@ -57,7 +58,7 @@
 
 
 <div class="container-fluid col-md-6 form-outline">
-  <h1 class="text-center" style="font-weight: bold;">Post Your Job</h1>
+  <h1 class="text-center" style="font-weight: bold;">Post a Your Job</h1>
 
   <form>
       <div class="form-group">
