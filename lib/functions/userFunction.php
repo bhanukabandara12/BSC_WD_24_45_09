@@ -29,23 +29,18 @@ function userRegistration($userName,$userLast,$userEmail,$userPass){
 
         $loginResult = mysqli_query($db_conn ,$insertLogin);
 
-    
-        // Check database connection errors
-        if(mysqli_connect_error()){
-            // If there is a connection error, show an alert with the error message
-            echo "<script>alert('Database connection failed: " . mysqli_connect_error() . "');</script>";
-        } else {
-            // If the registration is successful, show a success alert
-            echo "<script>alert('Your Registration was successful!');</script>";
-        }
-        
-        // If needed, you can return a success or failure message based on conditions
-       // return("Your Registration Success!");
-        } else {
-            // Show an alert for failure
-            echo "<script>alert('Please try again!');</script>";
-            return("Please Try Again!");
-        }
+            //check database connection errors
+    if(mysqli_connect_error()){
+        echo(mysqli_connect_error());
+    } 
+     
+    return("Your Registration Success!");
+
+
+    }else{
+        return("Please Try Again!");
+    }
+}
         
         
 
@@ -80,7 +75,7 @@ function Authentication($userName,$userPass){
             if($rec['login_status'] == 1){
                if($rec['login_role']== "admin"){
                 //redirect this user admin dashboard
-                header('location:lib/views/dashboard/admin.php');
+                header('location:lib/views/dashboard/Admin/admin.php');
                }else{
                    //redirect this user user dashboard
                 header('location:lib/views/dashboard/user.php');
@@ -97,6 +92,6 @@ function Authentication($userName,$userPass){
 
 }
 
-}
+
 
 ?>
