@@ -98,11 +98,11 @@ mysqli_close($con);
   <div class="form-group">
            <i class="fas fa-user-tag"></i>
            <label>Title</label>
-           <div class="form-check">
+           <div class="form-check form-check-inline">
            <input type="radio" class="form-check-input" id="mr" name="title" value="Mr." required>
            <label class="form-check-label" for="mr">Mr.</label>
     </div>
-    <div class="form-check">
+    <div class="form-check form-check-inline">
         <input type="radio" class="form-check-input" id="ms" name="title" value="Ms." required>
         <label class="form-check-label" for="ms">Ms.</label>
     </div>
