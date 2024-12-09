@@ -6,11 +6,9 @@
     <title>JobEntry</title>
     <link rel="stylesheet" href="../../../css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../css/nav.css">
-    <link rel="stylesheet" href="../../../css/about.css">
+    <link rel="stylesheet" href="../../../css/contact.css">
     <link rel="stylesheet" href="../../../css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-
-
 
 </head>
 <body>
@@ -27,6 +25,7 @@
         <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
           <li class="nav-item">
           <a class="nav-link" aria-current="page" href="user.php">Home</a>
+
           </li>
           <li class="nav-item">
             <a class="nav-link mx-lg-2" href="about.php">About</a>
@@ -51,45 +50,50 @@
   </div>
 </nav>
 <!--Nav Bar End-->
-<br><br><br><br>
 
-<!--body-->
+<br><br><br><br><br>
+<!--contract form-->
 <div class="section">
- <div class="container">
-    <div class="about-section">
-      <div class="line"></div>
-      <div class="about-text">About us</div>
-    </div>
-    <div class="content">
-      <h2>The Perfect Opportunity</h2>
-      <p>Welcome to Job Entry, where career dreams meet reality. Founded with a passion for connecting talent with opportunity, our platform aims to provide job seekers with access to a wide variety of career paths that align with their skills and aspirations. We are committed to making the job search process easier, more efficient, and ultimately more rewarding for both candidates and employers.</p>
-      <p>At Job Entry, we believe that finding the right job is about more than just filling a position—it's about matching your unique skills and ambitions with the perfect opportunity. Our platform offers personalized job recommendations, expert career resources, and a seamless application process to help you take the next step in your career with confidence.</p>
-      <p>Join us on a journey of growth and achievement. Whether you're looking for your first job, a career change, or an exciting new challenge, [Your Website Name] is here to support you every step of the way. Thank you for choosing us as your partner in your career journey.</p>
-      <br><br><br>
-      <h2>Being Different is a Great Career Choice</h2>
-        <p>At Job Entry, we celebrate the uniqueness of each individual and believe that embracing your distinct strengths is key to finding your perfect job. We understand that everyone’s career journey is different, and we’re here to help you showcase what makes you stand out. Our platform is designed to empower you to express your skills, passions, and experiences in the most authentic way possible, so you can find a role that truly fits who you are.</p>
-        <p>In a world where finding the right career can be challenging, we stand by the idea that embracing your individuality is not just important it’s essential. Let us help you turn your uniqueness into your greatest professional asset.</p>
-    <br><br>
-   
-    <h2>Company Information</h2>
-     <p>Job Entry SL (PVT) LTD. <br>
-      No. 25, Kundasale, Sri Lanka.</p>
-      
-      <h2>Customer Care Hotline</h2>
-      <p>+94 77408 8080 <br>
-         Help and Support Link <br>
-        www.jobentrysl.com/support/</p>
-   </div>
-  </div>
-</div>
-<!--body-->
+<div class="container-fluid col-md-6 form-outline">
+  <h1 class="text-center" style="font-weight: bold;">Add a Your Comment</h1>
 
+  <form>
+      <div class="form-group">
+          <i class="fas fa-user"></i>
+          <label for="firstName">Your Name</label>
+          <input type="text" class="form-control" id="firstName" required>
+      </div>
+       
+      <div class="form-group">
+          <i class="fas fa-user-tie"></i>
+          <label for="firstName">Your Position</label>
+          <input type="text" class="form-control" id="firstName" required>
+      </div>
+     
+
+      <div class="form-group">
+          <i class="fas fa-envelope"></i>
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" required>
+      </div>
+      
+      <div class="form-group">
+          <i class="fas fa-comment"></i>
+          <label for="message">Comment</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+      </div>
+      <br><br>
+      <input class="btn btn-primary w-100 py-2" type="submit" value="Submit">
+
+  </form>
+</div>
+<!--end of contact form-->
 <br><br>
 <!--footer section-->
-
+<div class="section">
   <footer class="text-center text-white" style="background-color:#3ECE75">
     <div class="container">
-      <section class="mt-1">
+      <section class="mt-5">
         <div class="row text-center d-flex justify-content-center pt-5">
           <div class="col-md-2">
             <h6 class="text-uppercase font-weight-bold">
@@ -171,7 +175,9 @@
 
 
 
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="../../../js/script.js"></script>
+
 </body>
 </html>

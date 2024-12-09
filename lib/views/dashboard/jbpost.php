@@ -56,7 +56,7 @@
 
 <!--job post application-->
 
-
+<div class="section">
 <div class="container-fluid col-md-6 form-outline">
   <h1 class="text-center" style="font-weight: bold;">Post a Your Job</h1>
 
@@ -121,9 +121,93 @@
       <input class="btn btn-primary w-100 py-2" type="submit" value="Submit">
 
   </form>
-
+  </div>
 
 <!--end-->
+<br><br><br><br>
+<!--footer section-->
+<div class="section">
+  <footer class="text-center text-white" style="background-color:#3ECE75">
+    <div class="container">
+      <section class="mt-1">
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="about.php" class="text-white">About us</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="jobs.php" class="text-white">Jobs</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="jbpost.php" class="text-white">Post a Job</a>
+            </h6>
+          </div>
+          
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="commment.php" class="text-white">Add Comment</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="contact.php" class="text-white">Contact</a>
+            </h6>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-5" />
+
+      <section class="mb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p>
+              "Find your dream job with ease! Our platform connects job seekers with top employers, 
+              offering opportunities across various industries. 
+              Start your career journey today and discover your potential."
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Social -->
+      <section class="text-center mb-5">
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </section>
+      <!-- Section: Social -->
+    </div>
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2024 All Rights Reserved : jobentry.com
+   </div>
+  </footer>
+</div>
+ <!--End  Footer -->
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
