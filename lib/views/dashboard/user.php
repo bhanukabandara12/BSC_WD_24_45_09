@@ -78,17 +78,17 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../../../images/123.png" class="d-block w-100 img-fluid" alt="First slide">
+      <img src="../../../images/bro.png" class="d-block w-100 img-fluid" alt="First slide">
       <div class="container">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../../../images/1.png" class="d-block w-100 img-fluid" alt="Second slide">
+      <img src="../../../images/ttr.png" class="d-block w-100 img-fluid" alt="Second slide">
       <div class="container">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../../../images/123.png" class="d-block w-100 img-fluid" alt="Third slide">
+      <img src="../../../images/bro.png" class="d-block w-100 img-fluid" alt="Third slide">
       <div class="container">
       </div>
     </div>
