@@ -62,16 +62,24 @@ include '../../../functions/connect_db.php'
 <!--user management-->
 <br><br><br><br><br>
 <div class="container">
-<h1 class="text-center" style="font-weight: bold;">Delete Users</h1><br>
+<h1 class="text-center" style="font-weight: bold;">Job Applications</h1><br>
    <!-- <button class="btn btn-primary my-5"><a href="" class="text-light">Add user</a></button>-->
     <table class="table table-striped text-center" style="border: 1px solid black;">
   <thead class="table-dark">
     <tr>
       <th scope="col">Id</th>
+      <th scope="col">Title</th>
       <th scope="col">First Name</th>
       <th scope="col">Last Name</th>
+      <th scope="col">Age</th>
+      <th scope="col">Mobile Num</th>
       <th scope="col">Email</th>
+      <th scope="col">Cv</th>
+      <th scope="col">Message</th>
       <th scope="col">Action</th>
+
+
+
     </tr>
   </thead>
   <tbody>
@@ -79,24 +87,47 @@ include '../../../functions/connect_db.php'
   <!--get data  to table-->
 <?php
 
-$sql = "SELECT * FROM user_tbl";
+$sql = "SELECT * FROM job_applications";
 $result = mysqli_query($con,$sql);
 if ($result) {
       while($row=mysqli_fetch_assoc($result)){
         $id = $row['id'];
-        $fname = $row['user_name'];
-        $lname = $row['user_last'];
-        $email = $row['user_email'];
+        $title = $row['title'];
+        $fname = $row['first_name'];
+        $lname = $row['last_name'];
+        $age = $row['age'];
+        $mobile = $row['contact_number'];
+        $email = $row['email'];
+        $cv = $row['cv'];
+        $message = $row['message'];
+
 
         echo '
             <tr>
       <th scope="row">'.$id.'</th>
+                    <td>'.$title.'</td>
                     <td>'.$fname.'</td>
                     <td>'.$lname.'</td>
+                    <td>'.$age.'</td>
+                    <td>'.$mobile.'</td>
                     <td>'.$email.'</td>
+                    <td>'.$cv.'</td>
+                     <td>'.$message.'</td>
                     <td>
-                    <a href="adminOper/userDele.php?
-                    deleteid='.$id.'" class="line-dark"> <i class="fas fa-trash" style="color: black;"></i></a>
+
+                    
+                    <a href="adminOper/appliUpda.php?>
+                    updateid = '.$id.'" class="line-dark">
+                    <i class="fas fa-edit" style="color: green;"></i>
+                    </a>
+
+                    
+                    <a href="adminOper/appliDele.php?
+                    deleteid='.$id.'" class="line-dark"> <i class="fas fa-trash" style="color: black;"></i>
+                    </a>
+
+                    
+
 
                     </td>
             </tr>';

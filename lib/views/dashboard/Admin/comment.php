@@ -62,15 +62,17 @@ include '../../../functions/connect_db.php'
 <!--user management-->
 <br><br><br><br><br>
 <div class="container">
-<h1 class="text-center" style="font-weight: bold;">Delete Users</h1><br>
+<h1 class="text-center" style="font-weight: bold;">Client's Comments</h1><br>
    <!-- <button class="btn btn-primary my-5"><a href="" class="text-light">Add user</a></button>-->
     <table class="table table-striped text-center" style="border: 1px solid black;">
   <thead class="table-dark">
     <tr>
       <th scope="col">Id</th>
-      <th scope="col">First Name</th>
-      <th scope="col">Last Name</th>
+      <th scope="col">Name</th>
+      <th scope="col">Position</th>
       <th scope="col">Email</th>
+      <th scope="col">Picture</th>
+      <th scope="col">Message</th>
       <th scope="col">Action</th>
     </tr>
   </thead>
@@ -79,23 +81,30 @@ include '../../../functions/connect_db.php'
   <!--get data  to table-->
 <?php
 
-$sql = "SELECT * FROM user_tbl";
+$sql = "SELECT * FROM comments";
 $result = mysqli_query($con,$sql);
 if ($result) {
       while($row=mysqli_fetch_assoc($result)){
         $id = $row['id'];
-        $fname = $row['user_name'];
-        $lname = $row['user_last'];
-        $email = $row['user_email'];
+        $fname = $row['name'];
+        $position = $row['position'];
+        $email = $row['email'];
+        $picture = $row['photo'];
+        $message = $row['message'];
+
+
 
         echo '
             <tr>
       <th scope="row">'.$id.'</th>
                     <td>'.$fname.'</td>
-                    <td>'.$lname.'</td>
+                    <td>'.$position.'</td>
                     <td>'.$email.'</td>
+                    <td>'. $picture.'</td>
+                    <td>'.$message.'</td>
+                
                     <td>
-                    <a href="adminOper/userDele.php?
+                    <a href="adminOper/commenDele.php?
                     deleteid='.$id.'" class="line-dark"> <i class="fas fa-trash" style="color: black;"></i></a>
 
                     </td>

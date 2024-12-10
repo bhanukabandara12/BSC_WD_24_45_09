@@ -110,7 +110,11 @@
            <label for="deadline">Deadline</label>
            <input type="date" class="form-control" id="deadline" required>
        </div>
-
+       <div class="form-group">
+           <i class="fas fa-image"></i>
+           <label for="companyLogo">Company Logo</label>
+           <input type="file" class="form-control" id="companyLogo" accept="image/*" required>
+      </div>
       
       <div class="form-group">
           <i class="fas fa-comment"></i>
