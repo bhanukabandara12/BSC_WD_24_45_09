@@ -21,7 +21,8 @@ include '../../../functions/connect_db.php'
     </style>
 </head>
 <body>
-         <!--Nav Bar-->
+<!--Nav Bar-->
+<div class="section">
 <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand me-auto" href="admin.php">JobEntry Admin</a>
@@ -57,10 +58,12 @@ include '../../../functions/connect_db.php'
     </button>
   </div>
 </nav>
+</div>
 <!--Nav Bar End-->
 
 <!--user management-->
 <br><br><br><br><br>
+<div class="section">
 <div class="container">
 <h1 class="text-center" style="font-weight: bold;">Client's Comments</h1><br>
    <!-- <button class="btn btn-primary my-5"><a href="" class="text-light">Add user</a></button>-->
@@ -117,7 +120,7 @@ if ($result) {
   </tbody>
 </table>
 </div>
-
+</div>
 <!--end user manage-->
 
 
