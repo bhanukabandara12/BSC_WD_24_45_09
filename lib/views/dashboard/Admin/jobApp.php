@@ -120,8 +120,8 @@ if ($result) {
                      <td>'.$message.'</td>
                     <td>
 
-                    <a href="adminOper/appliUpda.php?
-                    updateid=<?php echo $id; ?>" class="line-dark">
+                    <a href="adminOper/UpdateApplica.php?
+                    updateid ='.$id.'" class="line-dark">
                     <i class="fas fa-edit" style="color: green;"></i>
                     </a>
 

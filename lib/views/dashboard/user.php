@@ -157,7 +157,7 @@
 <!--start catogory section-->
 <div class="section">
    
-   <div class="container-xxl py-5">
+   <div class="container-xxl py-2">
             <div class="container">
                 <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Explore By Category</h1>
                 <div class="row g-4">
