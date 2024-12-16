@@ -52,7 +52,7 @@ include '../../../functions/connect_db.php'
        
       </div>
     </div>
-    <a href="jbpost.php" class = "login-button" >Post a Job</a>
+    <a href="Postjob.php" class = "login-button" >Post a Job</a>
     <button class="navbar-toggler pe-8" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -117,7 +117,7 @@ if ($result) {
                     <td>'.$mobile.'</td>
                     <td>'.$email.'</td>
                     <td>'.$cv.'</td>
-                     <td>'.$message.'</td>
+                    <td>'.$message.'</td>
                     <td>
 
                     <a href="adminOper/UpdateApplica.php?
@@ -148,7 +148,7 @@ if ($result) {
 
 
 
-
+<script src="../../../../js/jobAppli.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="../../../../js/script.js"></script>
 </body>

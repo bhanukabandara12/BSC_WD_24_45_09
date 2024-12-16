@@ -52,7 +52,7 @@ include '../../../functions/connect_db.php'
        
       </div>
     </div>
-    <a href="jbpost.php" class = "login-button" >Post a Job</a>
+    <a href="Postjob.php" class = "login-button" >Post a Job</a>
     <button class="navbar-toggler pe-8" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

@@ -255,103 +255,45 @@
 <!--end-->
 
 <!--job list-->
+<?php
+include '../../functions/connect_db.php';
+
+$sql = "SELECT * FROM job_post";
+$result = $con->query($sql);
+?>
+
+
 <div class="section">
-<div class="container mt-5">
+  <div class="container mt-5">
         <h1 class="text-center mb-4">Job Listing</h1>
         <div class="job-listing">
+            <?php while ($row = $result->fetch_assoc()): ?>
             <div class="job d-flex align-items-center mb-3 p-3">
                 <div class="job-logo mr-3">
-                    <img src="../../../images/11.png" alt="TechCom Logo" class="img-fluid" width="50">
+                    <img src="<?php echo $row['image_path']; ?>" alt="<?php echo $row['jobName']; ?> Logo" class="img-fluid" width="50">
                 </div>
                 <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">HNB School Leaver Internship</h2>
+                    <h2 class="mb-1"><?php echo $row['jobName']; ?></h2>
                     <p class="mb-1">
                         <i class="fas fa-map-marker-alt"></i>
-                        <span class="location">All island</span> | 
+                        <span class="location"><?php echo $row['location']; ?></span> | 
                         <i class="fas fa-wallet"></i>
-                        <span class="salary">Rs 45 000 - Rs 60 000</span>
+                        <span class="salary"><?php echo $row['salary']; ?></span>
                     </p>
-                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 20 Jan, 2025</p>
+                    <p class="deadline">
+                        <i class="fas fa-calendar-alt"></i> Deadline: <?php echo $row['dedline']; ?>
+                    </p>
                 </div>
                 <div class="job-apply">
-                <a href="apply.php" class="btn btn-success">Apply Now</a>
+                    <a href="apply.php" class="btn btn-success">Apply Now</a>
                 </div>
             </div>
-            <div class="job d-flex align-items-center mb-3 p-3">
-                <div class="job-logo mr-3">
-                    <img src="../../../images/mas.png" alt="International     bb" class="img-fluid" width="50">
-                </div>
-                <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Markerting Manager MAS Company</h2>
-                    <p class="mb-1">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span class="location">Pallekele, BOI</span> | 
-                        <i class="fas fa-wallet"></i>
-                        <span class="salary">Rs 75 000 - Rs 100 000</span>
-                    </p>
-                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
-                </div>
-                <div class="job-apply">
-                <a href="apply.php" class="btn btn-success">Apply Now</a>
-                </div>
-            </div>
-            <div class="job d-flex align-items-center mb-3 p-3">
-                <div class="job-logo mr-3">
-                    <img src="../../../images/odel.png" alt="TechCom Logo" class="img-fluid" width="50">
-                </div>
-                <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Business Developer at ODEL PLC</h2>
-                    <p class="mb-1">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span class="location">Kandy, Sri lanka</span> | 
-                        <i class="fas fa-wallet"></i>
-                        <span class="salary">Rs 65 000</span>
-                    </p>
-                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 19 Jan, 2025</p>
-                </div>
-                <div class="job-apply">
-                <a href="apply.php" class="btn btn-success">Apply Now</a>
-                </div>
-            </div>
-            <div class="job d-flex align-items-center mb-3 p-3">
-                <div class="job-logo mr-3">
-                    <img src="../../../images/10.png" alt="TechCom Logo" class="img-fluid" width="50">
-                </div>
-                <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Cashier Cargills Food Sity</h2>
-                    <p class="mb-1">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span class="location">Kundasale food sity, Kandy</span> |
-                        <i class="fas fa-wallet"></i> 
-                        <span class="salary">Rs 25 000 - 34 000</span>
-                    </p>
-                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 05 Jan, 2025</p>
-                </div>
-                <div class="job-apply">
-                <a href="apply.php" class="btn btn-success">Apply Now</a>
-                </div>
-            </div>
-            <div class="job d-flex align-items-center mb-3 p-3">
-                <div class="job-logo mr-3">
-                    <img src="../../../images/15.png" alt="TechCom Logo" class="img-fluid" width="50">
-                </div>
-                <div class="job-details flex-grow-1">
-                    <h2 class="mb-1">Junior Executive at SINGER Finance</h2>
-                    <p class="mb-1">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span class="location">Yakkala, Colombo</span> |
-                        <i class="fas fa-wallet"></i> 
-                        <span class="salary">Rs 70 000 up</span>
-                    </p>
-                    <p class="deadline"><i class="fas fa-calendar-alt"></i> Deadline: 01 Jan, 2025</p>
-                </div>
-                <div class="job-apply">
-                <a href="apply.php" class="btn btn-success">Apply Now</a>
-                </div>
-            </div>
+            <?php endwhile; ?>
         </div>
-    </div>
-    </div>
+  </div>
+</div>
+
+<!--end-->
 <!--end-->
 <div class="container text-center mt-5"> 
          <a href="jobs.php">
