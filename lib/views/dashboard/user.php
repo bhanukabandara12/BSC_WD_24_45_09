@@ -122,7 +122,10 @@
                         <input id="nameInput" type="text" class="form-control border-0" placeholder="Enter Your Name" />
                     </div>
                     <div class="col-md-4">
-                        <select id="categoryInput" class="form-select border-0">
+                    <input id="nameInput" type="text" class="form-control border-0" placeholder="Enter Your Age" />
+                    </div>
+                    <div class="col-md-4">
+                    <select id="categoryInput" class="form-select border-0">
                             <option selected>Category</option>
                             <option value="Marketing">Marketing</option>
                             <option value="Customer Service">Customer Service</option>
@@ -134,14 +137,6 @@
                             <option value="Design & Creative">Design & Creative</option>
                         </select>
                     </div>
-                    <div class="col-md-4">
-                        <select id="locationInput" class="form-select border-0">
-                            <option selected>Location</option>
-                            <option value="Kandy">Kandy</option>
-                            <option value="Colombo">Colombo</option>
-                            <option value="Galle">Galle</option>
-                        </select>
-                    </div>
                 </div>
             </div>
             <div class="col-md-2">
@@ -150,7 +145,6 @@
         </div>
     </div>
 </div>
-
 </div>
 <!--end search section-->
 
@@ -294,34 +288,39 @@ $result = $con->query($sql);
 </div>
 
 <!--end-->
-<!--end-->
 <div class="container text-center mt-5"> 
          <a href="jobs.php">
             <button class="login-button">Browse More Jobs</button>
          </a>
  </div>
-
+<br>
 
 
 <!-- Customer Testimonials -->
- <div class="section">
-<section class="testimonials">
+<?php
+include '../../functions/connect_db.php';
+
+$sql = "SELECT * FROM comments";
+$result = $con->query($sql);
+?>
+
+<div class="section">
     <div class="container">
-        <div class="section-header">
+        <div class="section-header text-center">
             <h1 class="title">What Our Clients Say</h1>
         </div>
         <div class="testimonials-content js-testimonials-slider swiper">
             <div class="swiper-wrapper">
-                
+                <?php while ($row = $result->fetch_assoc()): ?>
                 <div class="swiper-slide testimonials-item">
                     <div class="info">
-                        <img src="../../../images/kav.jpg" alt="Client Image">
+                        <img src="<?php echo $row['photo']; ?>" alt="Client Image" class="client-image">
                         <div class="text-box">
-                            <h3 class="name">Ishani Fernando</h3>
-                            <span class="job">Human Resource Manager</span>
+                            <h3 class="name"><?php echo $row['name']; ?></h3>
+                            <span class="job"><?php echo $row['position']; ?></span>
                         </div>
                     </div>
-                    <p>"This platform made my job search process incredibly smooth. The user interface is intuitive, and the job recommendations align perfectly with my skillset. I secured a fantastic role within just a month of signing up!"</p>
+                    <p><?php echo $row['message']; ?></p>
                     <div class="rating">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -329,87 +328,30 @@ $result = $con->query($sql);
                         <i class="fa fa-star"></i>
                     </div>
                 </div>
-
+                <?php endwhile; ?>
                 <div class="swiper-slide testimonials-item">
-                    <div class="info">
-                        <img src="../../../images/ish.jpg" alt="Client Image">
-                        <div class="text-box">
-                            <h3 class="name">Kavindi Rathnayake</h3>
-                            <span class="job">Marketing Specialist</span>
+                    <a href="commment.php" style="text-decoration: none;">
+                        <div class="info">
+                            <img src="../../../images/man.jpg" alt="Client Image" class="client-image">
+                            <div class="text-box">
+                                <h3 class="name">Add Your Comment +</h3>
+                                <span class="job"></span>
+                            </div>
                         </div>
-                    </div>
-                    <p>"I appreciate how comprehensive the website is. From updating my resume to tracking my applications, everything is seamlessly integrated. The blog section also provided helpful tips that boosted my confidence during interviews."</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
-                </div>
-
-                <div class="swiper-slide testimonials-item">
-                    <div class="info">
-                        <img src="../../../images/tari.jpg" alt="Client Image">
-                        <div class="text-box">
-                            <h3 class="name">Tharindu D Silva</h3>
-                            <span class="job">Graphic Designer</span>
+                        <p>"Your feedback helps us improve the platform and better assist others in their job search."</p>
+                        <div class="rating">
+                            <i class="fa fa-star" style="color:green;"></i>
+                            <i class="fa fa-star" style="color:green;"></i>
+                            <i class="fa fa-star" style="color:green;"></i>
+                            <i class="fa fa-star" style="color:green;"></i>
                         </div>
-                    </div>
-                    <p>"The variety of job listings here is amazing. I found several opportunities that matched my niche expertise. Plus, the ability to connect directly with employers saved me so much time.Thank You."</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
+                    </a>
                 </div>
-
-                <div class="swiper-slide testimonials-item">
-                    <div class="info">
-                        <img src="../../../images/laki.jpg" alt="Client Image">
-                        <div class="text-box">
-                            <h3 class="name">Kasun Jayasuriya</h3>
-                            <span class="job">Bank Manager</span>
-                        </div>
-                    </div>
-                    <p>"This site stands out because of its advanced filtering options. I was able to narrow down roles based on location, salary, and industry. The profile-building tool also helped me present my skills effectively to employers."</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
-                </div>
-                
-            
-                <div class="swiper-slide testimonials-item">
-                <a href="commment.php"style="text-decoration: none;">
-                    <div class="info">
-                        <img src="../../../images/man.jpg" alt="Client Image">
-                        <div class="text-box">
-                        <h3 class="name" style="color:;">Add Your Comment +</h3>
-                            <span class="job"></span>
-                        </div>
-                    </div>
-                    <p >"This website is amazing! It's easy to use, and the job listings perfectly match my skills. I quickly found a great opportunity, and the entire process was so smooth. Highly recommend it to anyone job hunting!"</p>
-                    <div class="rating">
-                         <i class="fa fa-star" style="color:green;"></i>
-                         <i class="fa fa-star" style="color:green;"></i>
-                         <i class="fa fa-star" style="color:green;"></i>
-                         <i class="fa fa-star" style="color:green;"></i>
-
-                    </div>
-                   </a>
-                </div>
-                
-   
             </div>
             <div class="swiper-pagination js-testimonials-pagination"></div>
         </div>
     </div>
-</section>
 </div>
-
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
@@ -424,11 +366,14 @@ $result = $con->query($sql);
             767: {
                 slidesPerView: 2,
             },
+            480: {
+                slidesPerView: 1,
+            }
         },
     });
 </script>
  <!--end-->
-
+<br><br><br>
 <!--footer section-->
 <div class="section">
   <footer class="text-center text-white" style="background-color:#3ECE75">
@@ -515,7 +460,7 @@ $result = $con->query($sql);
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="../../../js/script.js"></script>
-
+<script src="../../../js/search.js"></script>
 
 
 </body>

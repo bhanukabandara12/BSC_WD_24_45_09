@@ -1,47 +1,46 @@
 <?php
 include("../../../../functions/connect_db.php");
 
-$name = $position = $email = $message = $photoFileName = "";
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $name = htmlspecialchars($_POST['name']);
+    $position = htmlspecialchars($_POST['position']);
+    $email = htmlspecialchars($_POST['email']);
+    $message = htmlspecialchars($_POST['message']);
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = mysqli_real_escape_string($con, $_POST['name']);
-    $position = mysqli_real_escape_string($con, $_POST['position']);
-    $email = mysqli_real_escape_string($con, $_POST['email']);
-    $message = mysqli_real_escape_string($con, $_POST['message']);
-
-    if (isset($_FILES['photo']) && $_FILES['photo']['error'] === UPLOAD_ERR_OK) {
-        $photoTmpName = $_FILES['photo']['tmp_name'];
-        $photoFileName = basename($_FILES['photo']['name']);
-        $uploadDir = "uploads/photos/";
-        $uploadFilePath = $uploadDir . $photoFileName;
-
-        if (!is_dir($uploadDir)) {
-            mkdir($uploadDir, 0777, true);
-        }
-
-        if (move_uploaded_file($photoTmpName, $uploadFilePath)) {
-            // File uploaded successfully
-        } else {
-            echo "Error uploading photo.";
-            exit();
-        }
-    } else {
-        echo "Photo upload error.";
-        exit();
+    // Upload image
+    $target_dir = "Imageuploads/";
+    if (!is_dir($target_dir)) {
+        mkdir($target_dir, 0755, true); 
     }
 
-    $sql = "INSERT INTO comments (name, position, email, photo, message) 
-            VALUES ('$name', '$position', '$email', '$photoFileName', '$message')";
+    if (isset($_FILES['photo']) && $_FILES['photo']['error'] == UPLOAD_ERR_OK) {
+        $file_name = basename($_FILES["photo"]["name"]);
+        $target_file = $target_dir . preg_replace("/[^a-zA-Z0-9.-]/", "_", $file_name);
+        $file_type = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+        $allowed_types = ['jpg', 'jpeg', 'png', 'gif'];
 
-    if (mysqli_query($con, $sql)) {
-        echo "<script>alert('Comment added successfully');</script>";
+        if (!in_array($file_type, $allowed_types)) {
+            die("Error: Only image files (JPG, JPEG, PNG, GIF) are allowed.");
+        }
+
+        if (move_uploaded_file($_FILES["photo"]["tmp_name"], $target_file)) {
+            $stmt = $con->prepare("INSERT INTO comments (name, position, email, message, photo) VALUES (?, ?, ?, ?, ?)");
+            $stmt->bind_param("sssss", $name, $position, $email, $message, $target_file);
+
+            if ($stmt->execute()) {
+                echo "<script>alert('Your comment has been submitted successfully!');</script>";
+            } else {
+                echo "Error: " . $stmt->error;
+            }
+        } else {
+            echo "Failed to upload photo.";
+        }
     } else {
-        echo "Error: " . mysqli_error($con);
+        echo "No file uploaded or there was an upload error.";
     }
 }
-
-mysqli_close($con);
 ?>
+
 
 
 
