@@ -112,6 +112,14 @@ if ($result) {
                     <td>'.$message.'</td>
                 
                     <td>
+                     
+                    
+                    <a href="
+                    updateid ='.$id.'" class="line-dark">
+                    <i class="fas fa-edit" style="color: green;"></i>
+                    </a>
+
+
                     <a href="adminOper/contactDelet.php?
                     deleteid='.$id.'" class="line-dark"> <i class="fas fa-trash" style="color: black;"></i></a>
 

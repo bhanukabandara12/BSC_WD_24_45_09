@@ -95,7 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
        
       </div>
     </div>
-    <a href="jbpost.php" class = "login-button" >Post a Job</a>
+    <a href="PostJob.php" class = "login-button" >Post a Job</a>
     <button class="navbar-toggler pe-8" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -189,10 +189,15 @@ if ($result) {
                     <td>'.$location.'</td>
                     <td>'.$salary.'</td>
                     <td>'.$deadline.'</td>
-                    <td>'.$logo.'</td>
-                    
+                    <td><img src="'.$logo.'" alt="Logo" style="width: 50px; height: 50px;"></td>
                 
                     <td>
+
+                    <a href="
+                    updateid ='.$id.'" class="line-dark">
+                    <i class="fas fa-edit" style="color: green;"></i>
+                    </a>
+
                     <a href="adminOper/deletJob.php?
                     deleteid='.$id.'" class="line-dark"> <i class="fas fa-trash" style="color: black;"></i></a>
 

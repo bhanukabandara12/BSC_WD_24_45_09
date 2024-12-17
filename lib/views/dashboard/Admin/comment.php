@@ -106,10 +106,18 @@ if ($result) {
                     <td>'.$fname.'</td>
                     <td>'.$position.'</td>
                     <td>'.$email.'</td>
-                    <td>'. $picture.'</td>
+                    <td><img src="'.$picture.'" alt="photo" style="width: 50px; height: 50px;"></td>
                     <td>'.$message.'</td>
                 
                     <td>
+
+                    
+                    <a href="
+                    updateid ='.$id.'" class="line-dark">
+                    <i class="fas fa-edit" style="color: green;"></i>
+                    </a>
+
+
                     <a href="adminOper/commenDele.php?
                     deleteid='.$id.'" class="line-dark"> <i class="fas fa-trash" style="color: black;"></i></a>
 

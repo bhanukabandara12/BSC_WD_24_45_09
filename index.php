@@ -31,10 +31,10 @@ if(isset($_POST['btnLogin'])){
         </div>
         <div class="nav-menu" id="navMenu">
             <ul>
-                <li><a href="#" class="link active">Home</a></li>
-                <li><a href="#" class="link">Blog</a></li>
-                <li><a href="#" class="link">Services</a></li>
-                <li><a href="#" class="link">About</a></li>
+                <li><a href="#" class="link active"></a></li>
+                <li><a href="#" class="link"></a></li>
+                <li><a href="#" class="link"></a></li>
+                <li><a href="#" class="link"></a></li>
             </ul>
         </div>
         <div class="nav-button">
