@@ -232,7 +232,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <h1>We Help You Find the Perfect Job and Discover Top Talent</h1>
+                <h1>Finding Your Dream Job and Top Talent, Made Easy.</h1>
                 <p>Unlock your potential with our platform, designed to connect job seekers and employers seamlessly. Whether you're searching for your dream job or looking for exceptional talent, we've got you covered!</p>
                 <ul>
                     <li>Explore Opportunities: Find jobs tailored to your skills and goals.</li>

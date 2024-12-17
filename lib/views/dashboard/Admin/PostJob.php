@@ -138,7 +138,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <label for="companyLogo">Company Logo</label>
             <input type="file" class="form-control" id="companyLogo" accept="image/*" name="companyLogo" required>
         </div>
-      
+      <br>
         <button type="submit" class="btn btn-primary w-100 py-2">Submit</button>
     </form>
   </div>
