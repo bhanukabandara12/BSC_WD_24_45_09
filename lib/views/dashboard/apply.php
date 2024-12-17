@@ -56,9 +56,23 @@ mysqli_close($con);
     <link rel="stylesheet" href="../../../css/nav.css">
     <link rel="stylesheet" href="../../../css/contact.css">
     <link rel="stylesheet" href="../../../css/home.css">
+    <link rel="stylesheet" href="../../../css/popup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 </head>
 <body>
+
+<!-- Pop-up Container -->
+<div id="imagePopup" class="popup-container">
+  <div class="popup-content">
+    <a href="https://www.cv-template.com/en" id="imageLink"> 
+      <img src="../../../images/cv2.png" alt="Popup Image" class="popup-image">
+    </a>
+    <button id="closePopup">Cancel</button>
+  </div>
+</div>
+<!--end popup-->
+
+
 
 
 <!--nav bar Start-->
@@ -251,6 +265,6 @@ mysqli_close($con);
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="../../../js/script.js"></script>
-
+<script src="../../../js/popup.js"></script>
 </body>
 </html>
