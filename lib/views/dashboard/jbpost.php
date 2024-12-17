@@ -1,3 +1,51 @@
+<?php
+include '../../functions/connect_db.php';
+
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $jobName = htmlspecialchars($_POST['jobName']);
+    $location = htmlspecialchars($_POST['location']);
+    $salary = htmlspecialchars($_POST['salary']);
+    $dedline = htmlspecialchars($_POST['dedline']);
+
+   
+    $target_dir = "Imageuploads/";
+    if (!is_dir($target_dir)) {
+        mkdir($target_dir, 0755, true); 
+    }
+
+    if (isset($_FILES['companyLogo']) && $_FILES['companyLogo']['error'] == UPLOAD_ERR_OK) {
+        $file_name = basename($_FILES["companyLogo"]["name"]);
+        $target_file = $target_dir . preg_replace("/[^a-zA-Z0-9.-]/", "_", $file_name);
+        $file_type = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+        $allowed_types = ['jpg', 'jpeg', 'png', 'gif'];
+
+        if (!in_array($file_type, $allowed_types)) {
+            die("Error: Only image files (JPG, JPEG, PNG, GIF) are allowed.");
+        }
+
+        if (move_uploaded_file($_FILES["companyLogo"]["tmp_name"], $target_file)) {
+            $stmt = $con->prepare("INSERT INTO job_post (jobName, location, salary, dedline, image_path) VALUES (?, ?, ?, ?, ?)");
+            $stmt->bind_param("sssss", $jobName, $location, $salary, $dedline, $target_file);
+
+            if ($stmt->execute()) {
+                echo "<script>alert('Job application submitted successfully!');</script>";
+            } else {
+                echo "Error: " . $stmt->error;
+            }
+        } else {
+            echo "Failed to upload company logo.";
+        }
+    } else {
+        echo "No file uploaded or there was an upload error.";
+    }
+}
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,71 +108,35 @@
 <div class="container-fluid col-md-6 form-outline">
   <h1 class="text-center" style="font-weight: bold;">Post a Your Job</h1>
 
-  <form>
+  <form method="POST" enctype="multipart/form-data">
       <div class="form-group">
-          <i class="fas fa-tasks"></i>
-          <label for="requestType">Job Category</label>
-          <select class="form-control" id="requestType" required>
-              <option value="">Marketing</option>
-              <option>Customer Service</option>
-              <option>Human Resource</option>
-              <option>Project Management</option>
-              <option>Business Development</option>
-              <option>Sales & Communication</option>
-              <option>Teaching & Education</option>
-              <option>Design & Creative</option>
-          </select>
-      </div>
-      <div class="form-group">
-          <i class="fas fa-briefcase"></i>
-          <label for="firstName">Job Name</label>
-          <input type="text" class="form-control" id="firstName" required>
-      </div>
-      <div class="form-group">
-          <i class="fas fa-building"></i>
-          <label for="lastName">Company Name</label>
-          <input type="text" class="form-control" id="lastName" required>
-      </div>
-      <div class="form-group">
-          <i class="fas fa-phone"></i>
-          <label for="contactNumber">Contact Number</label>
-          <input type="number" class="form-control" id="contactNumber" required>
-      </div>
-      <div class="form-group">
-          <i class="fas fa-envelope"></i>
-          <label for="email">Email</label>
-          <input type="email" class="form-control" id="email" required>
-      </div>
-      <div class="form-group">
-          <i class="fas fa-map-marker-alt"></i>
-         <label for="location">Location</label>
-         <input type="text" class="form-control" id="location" placeholder="Enter your location" required>
-      </div>
-      <div class="form-group">
-          <i class="fas fa-dollar-sign"></i>
-          <label for="salary">Salary</label>
-           <input type="text" class="form-control" id="salary" placeholder="Enter salary" min="0" required>
-       </div>
-       <div class="form-group">
-           <i class="fas fa-calendar-alt"></i>
-           <label for="deadline">Deadline</label>
-           <input type="date" class="form-control" id="deadline" required>
-       </div>
-       <div class="form-group">
-           <i class="fas fa-image"></i>
-           <label for="companyLogo">Company Logo</label>
-           <input type="file" class="form-control" id="companyLogo" accept="image/*" required>
-      </div>
-      
-      <div class="form-group">
-          <i class="fas fa-comment"></i>
-          <label for="message">Write other infomation</label>
-          <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
-      </div>
-      <br><br>
-      <input class="btn btn-primary w-100 py-2" type="submit" value="Submit">
-
-  </form>
+            <i class="fas fa-briefcase"></i>
+            <label for="jobName">Job Name</label>
+            <input type="text" class="form-control" id="jobName" name="jobName" required>
+        </div>
+        <div class="form-group">
+            <i class="fas fa-map-marker-alt"></i>
+            <label for="location">Location</label>
+            <input type="text" class="form-control" id="location" placeholder="Enter your location" name="location" required>
+        </div>
+        <div class="form-group">
+            <i class="fas fa-dollar-sign"></i>
+            <label for="salary">Salary</label>
+            <input type="text" class="form-control" id="salary" placeholder="Enter salary" name="salary" required>
+        </div>
+        <div class="form-group">
+            <i class="fas fa-calendar-alt"></i>
+            <label for="deadline">Deadline</label>
+            <input type="date" class="form-control" id="deadline" name="dedline" required>
+        </div>
+        <div class="form-group">
+            <i class="fas fa-image"></i>
+            <label for="companyLogo">Company Logo</label>
+            <input type="file" class="form-control" id="companyLogo" accept="image/*" name="companyLogo" required>
+        </div>
+      <br>
+        <button type="submit" class="btn btn-primary w-100 py-2">Submit</button>
+    </form>
   </div>
 
 <!--end-->
@@ -215,6 +227,7 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="../../../js/script.js"></script>
 
 
 </body>
