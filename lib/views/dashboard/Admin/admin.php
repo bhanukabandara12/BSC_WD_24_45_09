@@ -97,6 +97,11 @@ if ($result) {
                     <td>'.$lname.'</td>
                     <td>'.$email.'</td>
                     <td>
+
+                    <a href="http://localhost/phpmyadmin/index.php?route=/sql&pos=0&db=jobentry&table=user_tbl">
+                      <i class="fas fa-edit" style="color: green;"></i>
+                    </a>
+
                     <a href="adminOper/userDele.php?
                     deleteid='.$id.'" class="line-dark"> <i class="fas fa-trash" style="color: black;"></i></a>
 

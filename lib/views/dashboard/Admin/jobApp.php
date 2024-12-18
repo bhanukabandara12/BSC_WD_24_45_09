@@ -117,7 +117,10 @@ if ($result) {
                     <td>'.$message.'</td>
                     <td>
 
-
+                     <a href="http://localhost/phpmyadmin/index.php?route=/sql&pos=0&db=jobentry&table=job_applications" class="line-dark">
+                      <i class="fas fa-edit" style="color: green;"></i>
+                    </a>
+                    
 
                     <a href="adminOper/appliDele.php?
                     deleteid='.$id.'" class="line-dark"> <i class="fas fa-trash" style="color: black;"></i>
