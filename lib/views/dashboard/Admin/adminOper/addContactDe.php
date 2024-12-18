@@ -61,9 +61,6 @@ mysqli_close($con);
             <a class="nav-link mx-lg-2" href="../jobApp.php">Job Applications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-lg-2" href="#">Jobs</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link mx-lg-2" href="../comment.php">Comments</a>
           </li>
           <li class="nav-item">

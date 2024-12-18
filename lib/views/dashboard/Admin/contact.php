@@ -40,9 +40,6 @@ include '../../../functions/connect_db.php'
             <a class="nav-link mx-lg-2" href="jobApp.php">Job Applications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-lg-2" href="jobs.php">Jobs</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link mx-lg-2" href="comment.php">Comments</a>
           </li>
           <li class="nav-item">
@@ -114,11 +111,9 @@ if ($result) {
                     <td>
                      
                     
-                    <a href="
-                    updateid ='.$id.'" class="line-dark">
-                    <i class="fas fa-edit" style="color: green;"></i>
-                    </a>
-
+                    <a href="adminOper/EditContact.php?updateid='.$id.'" class="line-dark">
+                  <i class="fas fa-edit" style="color: green;"></i>
+                   </a>
 
                     <a href="adminOper/contactDelet.php?
                     deleteid='.$id.'" class="line-dark"> <i class="fas fa-trash" style="color: black;"></i></a>

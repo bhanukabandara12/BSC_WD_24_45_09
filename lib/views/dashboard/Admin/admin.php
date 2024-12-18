@@ -40,9 +40,6 @@ include '../../../functions/connect_db.php'
             <a class="nav-link mx-lg-2" href="jobApp.php">Job Applications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-lg-2" href="jobs.php">Jobs</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link mx-lg-2" href="comment.php">Comments</a>
           </li>
           <li class="nav-item">
