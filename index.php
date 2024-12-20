@@ -90,20 +90,20 @@ if(isset($_POST['btnLogin'])){
             <div class="two-forms">
                 <!--<form action="" method = "post">-->
                 <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Firstname" name = "userName">
+                    <input type="text" class="input-field" placeholder="Firstname" name = "userName" required>
                     <i class="bx bx-user"></i>
                 </div>
                 <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Lastname" name ="userLast">
+                    <input type="text" class="input-field" placeholder="Lastname" name ="userLast" required>
                     <i class="bx bx-user"></i>
                 </div>
             </div>
             <div class="input-box">
-                <input type="text" class="input-field" placeholder="Email" name = "userEmail">
+                <input type="text" class="input-field" placeholder="Email" name = "userEmail" required>
                 <i class="bx bx-envelope"></i>
             </div>
             <div class="input-box">
-                <input type="password" class="input-field" placeholder="Password" name = "userPass" >
+                <input type="password" class="input-field" placeholder="Password" name = "userPass" required>
                 <i class="bx bx-lock-alt"></i>
             </div>
             <div class="input-box">

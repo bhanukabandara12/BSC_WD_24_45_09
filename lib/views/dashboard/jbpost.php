@@ -120,6 +120,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <input type="text" class="form-control" id="location" placeholder="Enter your location" name="location" required>
         </div>
         <div class="form-group">
+            <i class="fas fa-phone-alt"></i>
+            <label for="contact">Contact</label>
+            <input type="number" class="form-control" id="contact" placeholder="Enter contact number" name="contact" required>
+       </div>
+
+        <div class="form-group">
             <i class="fas fa-dollar-sign"></i>
             <label for="salary">Salary</label>
             <input type="text" class="form-control" id="salary" placeholder="Enter salary" name="salary" required>
